@@ -783,6 +783,7 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
     Title: Attribute.Text;
     Content: Attribute.RichText;
     Media: Attribute.Media;
+    Url: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
